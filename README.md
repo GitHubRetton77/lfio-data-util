@@ -17,7 +17,7 @@ Github Code URL: https://github.com/GitHubRetton77/lfio-data-util
 
 ## Run Instructions (when all dependencies are installed)
 1. From a fresh clone from Github, on a terminal, navigate to the root of the project and get code dependencies and build the project using Maven by running  `mvn -U clean package`
-2. `mvn -U clean package` will generate the machine code in form for classes inside a directory named `target` on the root of the project
+2. `mvn -U clean package` will generate the machine code in form of classes inside a directory named `target` on the root of the project
 3. Run the (kanban service)[https://github.com/GitHubRetton77/lfio-service] because this project will access the same in memory database.
 4. The encryption config cipher `Shift` and backup file path `Loads` are compiled together with the classes. To change those, look for file `cipher-configuration.json`. I've preconfigured `Loads` to look for the data backup file on the same directory where the program is executed for convenience. 
 Change it accordingly, if wanted. The backup data file will also be created on the same directory where the program is ran.   
